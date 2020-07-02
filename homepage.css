@@ -1,0 +1,585 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,600;0,700;1,600;1,700&display=swap');
+
+/*Home Page*/
+
+/*Header*/
+
+.info-bar {
+height:40px;
+width:100%;
+background-color: #3a3b40;
+text-align:center;
+}
+
+.hero-image{
+display:flex;
+flex: 100%;
+max-width: 100%;
+height:auto;
+}
+
+#header{
+height:150px;
+width: 100%;
+background-color: #aeba29;
+display: table; 
+}
+
+#header .block-text {
+text-align:center;
+vertical-align: middle;
+display: table-cell;  
+color:white;
+}
+
+#brand-header{
+height:225px;
+width: 100%;
+display: table; 
+}
+
+#brand-header .block-text {
+color:#96a022;
+font-size:2.2em;
+text-align:center;
+vertical-align: middle;
+display: table-cell;  
+}
+
+#brand-header .block-text span {
+color: #515151;
+font-size:.8em; 
+}
+
+#brand-row{
+flex: 100%;
+max-width: 100%;
+height:auto;
+align-items: center;
+justify-content: center;
+padding:0 75px 75px 75px;
+}
+
+.row-feature{
+display: flex;
+flex-wrap: wrap;
+background-color:#f7f7f7;
+height:auto;
+flex:1;
+}
+
+.row-feature-2 {
+display: flex;
+flex-wrap: wrap;
+background-color:#ececec;
+height:auto;
+flex:1;
+}
+
+.column-1{
+flex: 50%;
+max-width: 50%;
+padding: 145px 30px;
+}
+
+.column-2{
+flex: 50%;
+max-width: 50%;
+padding: 37px 20px;
+}
+
+.column-3{
+flex: 50%;
+max-width: 50%;
+padding: 43px 10px 39px 30px;
+}
+
+.column-4 {
+flex: 50%;
+max-width: 50%;
+padding:115px 53px 0 62px;
+}
+
+.body-title {
+font-size:1.4em; 
+color:#40403c;
+padding-bottom:10px; 
+}
+
+.body-text {
+font-weight:100;  
+font-style:italic;
+font-size:.9em;
+line-height:25px;
+color:#515151;
+}
+
+#blog-header{
+height:225px;
+width: 100%;
+display: table;
+background-color:#ececec; 
+}
+
+#blog-header .block-text {
+color:#96a022;
+font-size:2.2em; 
+text-align:center; 
+vertical-align: middle;
+display: table-cell;  
+}
+    
+#blog-header .block-text span{
+color: #515151;
+font-size:.8em;  
+}
+
+h3{
+font-size:1em;
+font-weight:700;
+padding-bottom:10px;
+}
+
+h3 a{
+color: #515151;
+text-decoration:none;
+}
+        
+.blog-text {
+font-size:.9em;
+font-weight:100;  
+line-height:18px;
+color: #515151;
+}
+
+.blog-date{
+padding:20px;
+font-weight:600;
+}
+
+#blog-row{
+background-color:#ececec; 
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+height: auto;
+padding-bottom: 89px;
+}
+
+.col-blog{
+position: relative;
+max-width: 30.30%;
+padding-right: 15px;
+padding-left: 15px;
+}
+
+.col-blog-2{
+position: relative;
+display: flex;
+flex-direction: column;
+min-width: 0;
+height: auto;
+}
+    
+.blog-body{
+background-color:white;
+flex: 1 1 auto;
+height: auto;
+padding:20px;
+}
+
+.col-blog-3 {
+background-color:white;
+border-top:1px solid #515151;
+position: relative;
+display: flex;
+flex-direction: column;
+min-width: 0;
+height: auto;
+padding-bottom:4px;
+}
+
+.button-placement{
+padding-top:100px;
+}
+
+.button {
+display: inline-block;
+font-size:1.2em;
+font-weight: 400;
+color: #515151;
+text-decoration:none;
+background:#ececec;
+border: 2px solid #40403c;
+text-align: center;
+vertical-align: middle;
+padding:10px;
+}
+
+.button:hover{
+color:#aeba29;
+border:2px solid #aeba29;
+text-decoration: none;
+}
+
+
+/*Media Quries*/
+
+@media only screen and (max-device-width: 960px){
+
+    .body-title {
+    font-size:1.2em; 
+    }
+
+    .body-text {
+    font-size:.8em;
+    }
+
+    .column-1{
+    padding: 130px 0 0 30px;
+    }  
+    
+    .column-3 {
+    padding: 43px 10px 39px 14px;
+    }
+
+    .column-4 {
+    padding: 99px 42px 0 52px;
+    } 
+
+}
+
+@media only screen and (max-device-width: 825px){
+
+    .column-1{
+    padding:110px 0 0 28px;
+    } 
+
+    .column-4 {
+    padding: 71px 40px 0 34px;
+    }
+
+    .body-title {
+    font-size:1em;
+    }
+
+    .body-text {
+    line-height:25px;
+    }
+
+}
+
+@media only screen and (max-device-width: 760px){
+
+    .info-bar {
+    height:30px;
+    }
+            
+    #header{
+    height:120px;
+    }
+            
+    #header .block-text {
+    font-size:1.4em;
+    }
+
+    #brand-header {
+    height: 136px;
+    }
+
+    #brand-header .block-text {
+    font-size:1.7em;
+    }
+
+    #brand-header .block-text span {
+    font-size:.7em; 
+    }
+
+    .body-title {
+    font-size:.9em;
+    }
+    
+    .body-text {
+    font-size:.7em;
+    line-height: 22px;
+    }
+
+    .column-1{
+    padding: 78px 24px 30px 30px;
+    }
+    
+    .column-2{
+    padding: 30px 14px 28px;
+    }
+
+    .column-4{
+    padding:71px 24px 30px 17px;
+    }  
+
+    #blog-header .block-text {
+    font-size:1.7em; 
+    }
+            
+    #blog-header .block-text span{
+    font-size:.7em;  
+    }
+}
+
+
+@media only screen and (max-device-width: 625px){
+    
+    #header{
+    height:115px;
+    }
+    
+    #header .block-text {
+    font-size:1.2em;
+    }
+
+    #brand-header .block-text {
+    font-size:1.2em;
+    }
+    
+    #brand-header .block-text span {
+    font-size:.9em;
+    }
+
+    #brand-row {
+    padding: 0 60px 62px 60px;
+    }
+
+    .column-1, .column-2, .column-3, .column-4, .colunm-5, .column-6 {
+    flex: 100%;
+    max-width: 100%;
+    }
+
+    .column-1{
+    padding:25px 45px 30px 45px;
+    text-align: center;
+    }
+
+    .column-order-1{
+    order: 1;
+    }
+
+    .column-2{
+    padding:30px 42px 7px;
+    }
+
+    .column-order-2{
+    order: 2;
+    }
+
+    .column-3{
+    padding:30px 42px 7px;
+    }
+
+    .column-4{
+    padding:25px 45px 30px 45px;
+    text-align: center;
+    }
+
+    .body-text {
+    line-height: 22px;
+    }
+
+    #blog-header {
+    height: 128px;
+    }
+
+    .col-blog{
+    position: relative;
+    max-width: 100%;
+    padding: 0 50px 30px 50px;
+    text-align:center;
+    }
+
+    #blog-header .block-text {
+    font-size:1.2em; 
+    }
+            
+    #blog-header .block-text span{
+    font-size:.9em;  
+    }
+
+}
+
+@media only screen and (max-device-width: 529px){
+
+    #header{
+    height:110px;
+    }
+
+    #header .block-text {
+    font-size:1.2em;
+    }
+
+    #brand-header .block-text {
+    font-size:1.4em;
+    }
+
+    #brand-header .block-text span {
+    font-size:.62em;
+    }
+
+    .brand-row {
+    padding: 0 50px 54px 50px;
+    }
+
+    .body-title {
+    font-size: .8em;
+    padding-bottom: 5px;
+    }
+
+    .body-text {
+    font-size: .65em;
+    line-height: 19px;
+    }
+
+    #brand-header .block-text {
+    font-size:1.2em;
+    }
+    
+    #brand-header .block-text span {
+    font-size:.62em;
+    }
+
+    h3 {
+    font-size: .8em;
+    }
+
+    .blog-text {
+    font-size: .6em;
+    }
+    
+    .button-placement {
+    padding-top: 29px;
+    }
+
+    .button {
+    font-size: 1em;
+    border: 1.5px solid #40403c;
+    }
+
+}
+
+
+
+@media only screen and (max-device-width: 425px){
+
+
+    .info-bar {
+    height:25px;
+    }
+
+    #header{
+    height: 71px;
+    }
+        
+    #header .block-text {
+    font-size: .86em;
+    }
+    
+    #brand-header {
+    height: 114px;
+    }
+                    
+    #brand-header .block-text {
+    font-size:1em;
+    }
+
+    #brand-header .block-text span {
+    font-size:.8em;
+    }
+
+    .column-1 {
+    padding: 13px 45px 30px 45px;
+    }
+
+    .column-2 {
+    padding: 30px 20px 7px;
+    }
+
+    .column-3 {
+    padding: 30px 20px 7px;
+    }
+    
+    .column-4 {
+    padding: 13px 45px 30px 45px;
+    }
+
+    .body-title {
+    font-size: .7em;
+    }
+
+    .body-text {
+    line-height:18px;
+    }
+
+    h3 {
+    font-size: .7em;
+    }
+
+    #blog-header .block-text{
+    font-size:1em;
+    }
+
+    #blog-header .block-text span{
+    font-size:.8em;
+    }
+
+    .button {
+    font-size: .9em;
+    }
+
+}
+
+
+@media only screen and (max-device-width: 325px){
+
+    #brand-row{
+    padding: 0 40px 39px 40px;
+    }
+
+    .column-1 {
+    padding: 14px 45px 12px 45px;
+    }
+
+    .column-2 {
+    padding: 20px 20px 0px;
+    }
+
+    .column-3 {
+    padding:20px 20px 0px;
+    }
+    
+    .column-4 {
+    padding:14px 35px 12px 35px;
+    }
+
+    .body-title {
+    font-size:.7em;
+    padding-bottom: 2px;
+    }
+    
+    .body-text {
+    font-size:.6em;
+    line-height:15px;
+    }
+
+    #blog-row {
+    padding-bottom: 0;
+    }
+
+    .button-placement {
+    padding: 0 0 20px 0;
+    }
+    
+    .button {
+    font-size:.8em;
+    padding:8px;
+    }
+
+}

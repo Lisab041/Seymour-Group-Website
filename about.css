@@ -1,0 +1,157 @@
+/*About Page*/
+
+#about-header {
+height:85px;
+background-color: #aeba29;
+padding-left:10px;
+}
+
+.row-feature-1 {
+display: flex;
+flex-wrap: wrap;
+height:auto;
+flex:1;
+padding:100px 15px 30px 15px;
+}
+
+.row-feature-2 {
+display: flex;
+flex-wrap: wrap;
+height:auto;
+flex:1;
+padding:0 15px 0 15px;
+}
+
+.row-feature-3 {
+display: flex;
+flex-wrap: wrap;
+height:auto;
+flex:1;
+padding:30px 15px 100px 15px;
+}
+
+.column-3 {
+flex: 30%;
+max-width: 30%;
+height:auto;
+}
+    
+.column-4 {
+flex: 70%;
+max-width: 70%;
+height:auto;
+padding-left: 15px;
+}
+
+.title {
+font-size:1em;
+color:#40403c;
+padding-bottom:20px;
+}
+
+.about-text{
+font-weight:100;
+font-size:.9em;
+line-height:26px;
+color:#515151;
+}
+
+.column-5 {
+flex: 70%;
+max-width: 70%;
+height:auto;
+padding-right: 15px;
+}
+
+.column-6 {
+flex: 30%;
+max-width: 30%;
+height:auto;
+}
+    
+/*media queries*/
+
+@media only screen and (max-device-width: 960px){
+
+
+}
+
+@media only screen and (max-device-width: 825px){
+   
+   
+}
+
+@media only screen and (max-device-width: 760px){
+
+    #about-header{
+    text-align:center;
+    }
+        
+    .column-3 {
+    flex: 100%;
+    max-width: 100%;
+    padding: 0 60px 30px 60px;
+    }
+            
+    .column-4 {
+    flex: 100%;
+    max-width: 100%;
+    padding:0;
+    }
+
+    .column-5 {
+    flex: 100%;
+    max-width: 100%;
+    }
+
+    .column-6 {
+    flex: 100%;
+    max-width: 100%;
+    padding: 30px 60px 30px 60px;
+    }
+
+}
+
+@media only screen and (max-device-width: 625px){
+
+}
+
+@media only screen and (max-device-width: 529px){
+
+}
+
+@media only screen and (max-device-width: 425px){
+
+    #about-header{
+    height:70px;
+    }
+
+    #about-header .block-text{
+    font-size: 1.3em;
+    line-height:70px;
+    }
+
+    .row-feature-1 {
+    padding-top:60px;
+    }
+        
+    .row-feature-3{
+    padding:30px 15px 40px 15px;
+    }
+
+        
+    .column-3 {
+    padding: 0 15px 30px 15px;
+    }
+    
+    .column-6 {
+    padding: 30px 15px 30px 15px;
+    }
+
+ 
+
+}
+
+@media only screen and (max-device-width: 325px){
+
+}
